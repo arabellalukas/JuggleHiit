@@ -1,0 +1,410 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.nav-bar {
+    overflow: hidden;
+    width: 100%;
+    max-height: 120px;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 300px;
+}
+
+.nav-bar > a.link {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover.workout {
+    background-color: #FFFF99;
+    border-radius: 25px;
+}
+
+a:hover.shop {
+    background-color: #99FF99;
+    border-radius: 25px;
+}
+
+a:hover.resources{
+    background-color: #99FFFF;
+    border-radius: 25px;
+}
+
+a:hover.contact {
+    background-color: #FF9999;
+    border-radius: 25px;
+}
+
+main {
+    margin-top: 120px;
+    z-index: 5;
+}
+
+/* Makes all mention of JuggleHiit in text bold */
+.brand-name {
+    font-weight: bold;
+}
+
+/* Makes all links in text less opaque when hovered over */
+a:hover.text-link {
+    opacity: 0.7;
+    border-radius: 15px;
+}
+
+/* Yellow section */
+.yellow {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: 450px;
+    background-color: #FFFF99;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* All images on the homepage */
+.home-img {
+    height: 400px;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagline {
+    font-size: 40px;
+    text-align: center;
+}
+
+.text {
+    width: 500px;
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+/* Green section */
+.green {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: 450px;
+    background-color: #99FF99;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Blue section */
+.blue {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: 450px;
+    background-color: #99FFFF;  
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Red section */
+.red {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: 450px;
+    background-color: #FF9999;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    max-height: 120px;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Social media icons */
+.social-media .fa {
+    padding: 20px;
+    font-size: 17px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-facebook {
+    background: #FFFF99;
+  }
+
+.fa-twitter {
+    background: #99FF99;
+    color: black;
+    }   
+
+.fa-instagram {
+    background: #99FFFF;
+    }
+
+/* Search */
+.search input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    font-size: 15px;
+    border: none;
+  }
+  
+  .search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    background: #FF9999;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .search button:hover {
+    opacity: 0.7;
+  }
+
+  /* WORKOUT PAGE */
+.yellow-workout {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: 500px;
+    background-color: #FFFF99;
+}
+
+.page-heading {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Three blocks */
+.column {
+    width: 20%;
+    padding: 50px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+  }
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Expanded box */
+.containerTab {
+    padding: 20px;
+    color: black;
+    width: 90%;
+    margin-left: 40px;
+    border-radius: 15px;
+  }
+
+/* Closable button */
+.closebtn {
+    float: right;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+/* SHOP PAGE */
+.green-shop {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    background-color: #99FF99;
+}
+
+.shop-cards {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    background: white;
+    height: 569px;
+  }
+
+.card-image {
+    width: 100%;
+    height: 350px;
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.card button:hover {
+    opacity: 0.7;
+  }
+
+#add {
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    margin-left: 50px;
+}
+
+/* RESOURCES */
+.blue-resources {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    background-color: #99FFFF;
+}
+
+.content-lib {
+ margin-bottom: 40px;
+}
+
+.res-cont {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.res-img {
+ height: 300px;
+ border-radius: 15px;
+}
+
+/* CONTACT */
+.red-contact {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    background-color: #FF9999;
+}
+
+/* Stuff for the contact form */
+.contact-form input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize */
+}
+  
+.contact-form input[type=submit] {
+    background-color: #FFFF99;
+    color: black;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #99FF99;
+}
+
+.c-content {
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 400px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
