@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <!-- Flavicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="nav-bar">
+                <a href="../index.html"><img class="logo" src="../img/g3246.png" alt="logo"></a>
+                <a href="workout.html" class="link workout">The Workout</a>
+                <a href="shop.html" class="link shop">Shop</a>
+                <a href="resources.html" class="link resources">Resources</a>
+                <a href="contact.html" class="link contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="red-contact">
+                <h1 class="page-heading">Say hi!</h1>
+                    <section class="c-content">
+                        <!-- Contact form -->
+                        <form class="contact-form"action="#">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                            <label for="email">Email Address</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your email address...">
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="uk">UK</option>
+                                <option value="australia">Australia</option>
+                                <option value="usa">USA</option>
+                            </select>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <!-- Links to social media accounts -->
+            <section class="social-media">
+                <p>Follow us on social media!</p>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            </section>
+            <!-- Search bar -->
+            <section class="search">
+                <p>Can't find something?</p>
+                <div class="search-container">
+                    <form action="#">
+                      <input type="text" placeholder="Search..." name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </section>
+        </footer>
+        
+    </body>
+
+</html>
