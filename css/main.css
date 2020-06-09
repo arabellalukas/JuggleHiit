@@ -33,6 +33,10 @@ body {
     padding: 10px;
 }
 
+a:link {
+    color: black;
+}
+
 a:visited {
     color: black;
 }
